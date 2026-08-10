@@ -2,10 +2,11 @@
 
 **A practical methodology for measuring and improving brand visibility in generative AI search systems**
 
-**Author:** Vladimir Sinitsyn  
+**Created by Vladimir Sinitsyn**  
 **Organization:** Systemnoe SEO  
 **Version:** 1.0  
-**Release date:** August 2026
+**Release date:** August 2026  
+**Last updated:** 2026-08-10
 
 ---
 
@@ -38,6 +39,32 @@ The framework is based on analysis of observable external signals related to the
 
 ---
 
+## Methodology Principles
+
+AI Visibility Framework is based on five principles:
+
+### 1. Entity First
+
+AI systems need a clear representation of entities before they can associate information correctly.
+
+### 2. Evidence Over Claims
+
+Expertise should be supported by observable evidence, not only by self-description.
+
+### 3. Structured Information
+
+Machine-readable information improves understanding of digital entities.
+
+### 4. Multi-source Trust
+
+AI systems operate in an environment of multiple information sources, not a single canonical page.
+
+### 5. Continuous Measurement
+
+AI Visibility should be monitored as a changing ecosystem, not as a one-time state.
+
+---
+
 ## Why AI Visibility Matters
 
 Traditional search model was built around:
@@ -49,7 +76,7 @@ Query → Page → Position → Click → Traffic
 Generative search changes the user journey:
 
 ```text
-Query → AI understands the task → Analyzes sources → Forms answer → 
+Query → AI understands the task → Analyzes sources → Forms answer →
 Selects most relevant entities → Recommends information to the user
 ```
 
@@ -98,6 +125,33 @@ SEO answers the question:
 
 AI Visibility answers the question:  
 **“How well does AI understand, trust and use information about the brand?”**
+
+---
+
+## Example
+
+### Before
+
+- AI Visibility Score: 32/100
+- Entity: weak
+- Content: medium
+- Trust: low
+- Citation: absent
+
+### Actions
+
+- create expert profile;
+- publish original research;
+- improve structured data;
+- build external references.
+
+### After
+
+- AI Visibility Score: 58/100
+- stronger entity recognition;
+- better topic association;
+- improved trust signals;
+- more frequent presence in monitored AI responses.
 
 ---
 
@@ -261,14 +315,14 @@ There are:
 
 - external confirmations
 - expert materials
-- stable presence in sources
+- frequent presence in monitored AI responses
 
 **Level 4 — AI Visible (81–100)**  
 The brand has:
 
 - a strong digital entity
 - high thematic coherence
-- stable presence in AI responses
+- stable presence in monitored AI responses
 
 ---
 

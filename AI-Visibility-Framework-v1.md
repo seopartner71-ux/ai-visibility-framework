@@ -1,4 +1,4 @@
-# AI Visibility Audit v1.0
+# AI Visibility Framework v1.0
 
 **A practical methodology for assessing and improving brand visibility in generative AI search systems**
 
@@ -11,36 +11,51 @@
 
 ---
 
-## Overview
+## Abstract
 
-AI Visibility Audit v1.0 is a practical assessment framework used to evaluate how well a brand, organization, or expert is represented in generative AI search systems.
+AI Visibility Framework v1.0 is an author-created practical methodology for assessing and improving brand visibility in generative AI search systems.
 
-The audit is designed to identify the current state of AI Visibility, detect weak signals, and define improvement actions across entity structure, content, trust, citation presence, and structured knowledge.
+The framework is designed for a search environment in which users receive not only lists of links, but also generated answers, recommendations, and explanations from AI systems.
 
-The audit does not analyze internal AI model logic.  
-It is based on observable external signals and monitored AI outputs.
+The methodology combines existing directions including SEO, entity optimization, semantic search, content strategy, digital PR, structured data, and generative AI search observations.
+
+The main purpose of the framework is to help companies understand:
+
+- how well AI systems understand their brand;
+- which sources shape the brand’s representation;
+- which trust signals are present;
+- which actions may improve AI visibility.
+
+Important: AI Visibility Framework does not claim to reveal the internal algorithms of ChatGPT, Gemini, Yandex Neuro, or other AI systems. The framework is based on observable external signals related to how digital entities are represented in generative search environments.
 
 ---
 
-## 1. Purpose of the Audit
+## 1. Introduction
 
-The purpose of AI Visibility Audit is to answer five practical questions:
+Traditional search was built around a simple path:
 
-1. Does AI understand the brand as a distinct entity?
-2. Is the brand associated with the right themes and expertise areas?
-3. Is there enough content evidence to support the brand’s authority?
-4. Are there trust signals outside the brand’s own website?
-5. Does the brand appear in monitored AI responses?
+```text
+Query → Page → Position → Click → Traffic
+```
 
-The audit is used as the operational layer of AI Visibility Framework v1.0.
+Generative search changes this path.
+
+```text
+Query → AI understands the task → Analyzes sources → Forms answer →
+Selects relevant entities → Recommends information to the user
+```
+
+In this environment, it is no longer enough to occupy positions in a search results page. A brand must exist as a clear digital entity, have confirmed expertise, be associated with relevant themes, and be present in sources that AI systems use.
+
+This creates a new layer of competition: visibility inside generated answers rather than only visibility in SERPs.
 
 ---
 
 ## 2. Scope
 
-AI Visibility Audit focuses on external factors that influence how digital entities may be represented in generative AI environments.
+AI Visibility Framework focuses on external factors that influence how digital entities may be represented in generative AI environments.
 
-The audit analyzes:
+The framework analyzes:
 
 - entity representation;
 - information consistency;
@@ -50,65 +65,83 @@ The audit analyzes:
 - structured information;
 - citation presence in AI responses.
 
-The audit does not attempt to inspect internal ranking systems or private model parameters.
+The framework does not analyze internal ranking systems, private model parameters, or undisclosed training logic.
 
 ---
 
-## 3. Relationship with SEO
+## 3. Definition of AI Visibility
 
-AI Visibility Audit does not replace traditional SEO.
+AI Visibility is the degree to which a brand, organization, or expert is represented, recognized, and used by generative AI systems when producing answers for users.
 
-SEO remains responsible for:
+AI Visibility includes:
 
-- crawling;
-- indexing;
-- rankings;
+- Entity Recognition;
+- Semantic Association;
+- Source Representation;
+- Citation Presence.
+
+### AI Visibility vs Traditional SEO
+
+AI Visibility differs from traditional search visibility.
+
+**Traditional SEO focuses on:**
+
+- positions;
+- impressions;
+- clicks;
 - organic traffic.
 
-AI Visibility Audit focuses on:
+**AI Visibility focuses on:**
 
-- entity understanding;
-- AI representation;
-- citation presence;
-- generative search visibility.
+- understanding of the brand entity;
+- thematic connections;
+- source trust;
+- citation;
+- presence inside AI answers.
 
-Both disciplines complement each other.
+SEO answers the question:
 
----
+**Where is the page?**
 
-## 4. Audit Inputs
+AI Visibility answers the question:
 
-A valid audit requires the following inputs:
-
-- brand name;
-- organization name;
-- expert or author name;
-- primary website;
-- key thematic areas;
-- main competitors;
-- target query set;
-- target AI systems;
-- language and market scope.
-
-Optional inputs:
-
-- profile pages;
-- publication list;
-- external mentions;
-- schema markup;
-- PDF or research materials;
-- case studies;
-- social and media presence.
+**How well does AI understand, trust, and use information about the brand?**
 
 ---
 
-## 5. Audit Dimensions
+## 4. Methodology Principles
 
-The audit consists of six dimensions.
+AI Visibility Framework is based on five principles.
 
-### 5.1 Entity Analysis
+### 4.1 Entity First
 
-Goal: determine whether the brand is recognized as a clear digital entity.
+AI systems need a clear representation of entities before they can associate information correctly.
+
+### 4.2 Evidence Over Claims
+
+Expertise should be supported by observable evidence, not only by self-description.
+
+### 4.3 Structured Information
+
+Machine-readable information improves understanding of digital entities.
+
+### 4.4 Multi-source Trust
+
+AI systems operate in an environment of multiple information sources, not a single canonical page.
+
+### 4.5 Continuous Measurement
+
+AI Visibility should be monitored as a changing ecosystem, not as a one-time state.
+
+---
+
+## 5. Framework Architecture
+
+The framework consists of six main layers.
+
+### 5.1 Entity Authority
+
+Goal: assess how clearly the brand’s digital entity is formed.
 
 Checks:
 
@@ -116,7 +149,8 @@ Checks:
 - organization presence;
 - author or expert presence;
 - linkage between brand and people;
-- identity consistency across sources.
+- identity consistency across sources;
+- Knowledge Graph signals.
 
 Questions:
 
@@ -124,19 +158,17 @@ Questions:
 - Does the brand have a stable public identity?
 - Are the brand and its experts connected clearly?
 
----
+### 5.2 Semantic Coverage
 
-### 5.2 Semantic Analysis
-
-Goal: determine whether the brand is associated with the correct themes.
+Goal: assess the thematic depth of the brand.
 
 Checks:
 
-- topic clusters;
-- terminology consistency;
-- related concepts;
-- topical depth;
-- query coverage.
+- topics associated with the brand;
+- how fully the niche is covered;
+- presence of thematic clusters;
+- coverage of user questions;
+- terminology consistency.
 
 Questions:
 
@@ -144,11 +176,9 @@ Questions:
 - Are important areas missing?
 - Is the brand associated with the intended niche?
 
----
+### 5.3 Content Quality
 
-### 5.3 Content Analysis
-
-Goal: evaluate whether the brand provides enough evidence of expertise.
+Goal: assess the availability of evidence of expertise.
 
 Checks:
 
@@ -164,11 +194,9 @@ Questions:
 - Or does it show evidence of competence?
 - Does the content help AI infer authority?
 
----
+### 5.4 Source Trust
 
-### 5.4 Trust Analysis
-
-Goal: determine whether the brand is supported by external trust signals.
+Goal: assess external trust in the brand.
 
 Checks:
 
@@ -176,7 +204,8 @@ Checks:
 - mentions in media;
 - industry references;
 - expert profiles;
-- third-party citations.
+- third-party citations;
+- consistent authorship.
 
 Questions:
 
@@ -184,11 +213,9 @@ Questions:
 - Are there external sources confirming its expertise?
 - Is the information repeated consistently across sources?
 
----
+### 5.5 Citation Presence
 
-### 5.5 AI Citation Analysis
-
-Goal: measure whether the brand appears in AI-generated answers.
+Goal: assess the actual presence of the brand in AI answers.
 
 Checks:
 
@@ -212,9 +239,7 @@ Questions:
 - Are the sources accurate?
 - Which competitors are mentioned instead?
 
----
-
-### 5.6 Technical AI Readiness
+### 5.6 Structured Knowledge
 
 Goal: assess whether the website and content are technically readable by machines.
 
@@ -238,59 +263,11 @@ Questions:
 
 ---
 
-## 6. Query Set Methodology
+## 6. AI Visibility Score Model
 
-AI Citation Analysis should use a predefined query set.
+AI Visibility Score is an evaluation model that shows the brand’s readiness for generative search.
 
-Query groups may include:
-
-### Brand queries
-
-Example:
-
-- Company name
-- Brand name
-- Founder name
-
-### Category queries
-
-Example:
-
-- best companies in [industry]
-- leading experts in [topic]
-- top solutions for [category]
-
-### Expert queries
-
-Example:
-
-- best experts in [topic]
-- recommended specialists in [field]
-- trusted voices in [industry]
-
-### Problem queries
-
-Example:
-
-- how to solve [customer problem]
-- how to improve [outcome]
-- what is the best way to [task]
-
-### Comparison queries
-
-Example:
-
-- [brand] vs competitors
-- [solution] vs [alternative]
-- [topic] best practices
-
-The same queries should be monitored over time to identify changes in visibility, citation patterns, and competitor presence.
-
----
-
-## 7. Scoring Logic
-
-The audit uses the same component structure as AI Visibility Framework v1.0.
+**Overall score:** 0–100 points
 
 Suggested weighting:
 
@@ -303,6 +280,9 @@ Suggested weighting:
 
 Total: 100
 
+### Score Logic
+
+```text
 AI Visibility Score =
 Entity Authority (20)
 +
@@ -315,10 +295,20 @@ Source Trust (15)
 Citation Presence (15)
 +
 Structured Knowledge (10)
+```
 
----
+### Weighting Model Note
 
-## 8. Scoring Reliability
+The weighting coefficients of AI Visibility Score v1.0 are working assumptions based on current observations and practical experience.
+
+In future versions, the model may be adjusted based on:
+
+- new data;
+- industry research;
+- practical cases;
+- additional observations of AI search systems.
+
+### Scoring Reliability
 
 AI Visibility Score is a structured assessment model.
 
@@ -334,7 +324,7 @@ The score is not an objective measurement of AI model behavior.
 
 ---
 
-## 9. Maturity Interpretation
+## 7. AI Visibility Maturity Model
 
 ### Level 0 — Invisible (0–20)
 
@@ -346,7 +336,7 @@ The brand exists online, but entity and topic signals are still weak.
 
 ### Level 2 — Established (41–60)
 
-The brand has content base and basic topical relevance.
+The brand has a content base and basic topical relevance.
 
 ### Level 3 — Trusted (61–80)
 
@@ -358,27 +348,29 @@ The brand shows strong entity clarity, topical coherence, trust signals, and rec
 
 ---
 
-## 10. Audit Workflow
+## 8. AI Visibility Audit Methodology
 
-AI Visibility Audit follows a five-step process.
+AI Visibility Framework becomes operational through AI Visibility Audit.
 
-### Step 1. Entity Review
+The audit is the applied layer that measures the current state and identifies what should be improved.
+
+### 8.1 Entity Review
 
 Identify the main entity, related people, organization structure, and external identity signals.
 
-### Step 2. Topic Mapping
+### 8.2 Topic Mapping
 
 Map the thematic areas, associated queries, and missing semantic clusters.
 
-### Step 3. Content Review
+### 8.3 Content Review
 
 Evaluate the quality, depth, and evidence level of the existing content.
 
-### Step 4. Trust Review
+### 8.4 Trust Review
 
 Analyze external mentions, links, publications, and reference sources.
 
-### Step 5. AI Response Review
+### 8.5 AI Response Review
 
 Run the predefined query set across target AI systems and record:
 
@@ -389,126 +381,236 @@ Run the predefined query set across target AI systems and record:
 
 ---
 
-## 11. Audit Output
+## 9. Implementation Process
 
-The audit should produce the following outputs:
+AI Visibility develops through a continuous cycle.
 
-- AI Visibility Score v1.0;
-- maturity level;
-- strong signals;
-- weak signals;
-- missing signals;
-- priority actions;
-- recommended content actions;
-- recommended trust actions;
-- recommended structured data actions;
-- monitoring plan.
+```text
+Measure → Analyze → Improve → Re-measure → Optimize
+```
 
----
+Practical process:
 
-## 12. Recommended Actions
-
-Based on audit findings, the following actions may be recommended:
-
-- strengthen entity pages;
-- standardize author and organization references;
-- publish original research;
-- expand topical coverage;
-- improve structured data;
-- develop relevant external trust signals;
-- create citation-ready content;
-- monitor AI outputs regularly.
+```text
+AI Visibility Audit
+↓
+Identify weak signals
+↓
+Create strategy
+↓
+Strengthen Entity
+↓
+Develop Content
+↓
+Obtain Trust Signals
+↓
+Re-evaluate Score
+```
 
 ---
 
-## 13. Illustrative Example
+## 10. Measurement Approach
 
-### Example: Expert Brand
+AI Citation Analysis should use a predefined query set.
 
-**Brand Visibility Score:** 34/100  
-**Maturity Level:** Recognized
+The same queries should be monitored over time to identify changes in visibility, citation patterns, and competitor presence.
 
-Observed issues:
+### 10.1 Query Set Methodology
 
-- weak entity connection;
-- limited external trust signals;
-- sparse original research;
-- low citation presence.
+Query groups may include:
 
-Recommended actions:
+#### Brand queries
 
-- create expert profile;
-- publish one original research piece;
-- add structured data;
-- develop relevant external trust signals;
-- run the same query set again after changes.
+Examples:
+
+- Company name;
+- Brand name;
+- Founder name.
+
+#### Category queries
+
+Examples:
+
+- best companies in [industry];
+- leading experts in [topic];
+- top solutions for [category].
+
+#### Expert queries
+
+Examples:
+
+- best experts in [topic];
+- recommended specialists in [field];
+- trusted voices in [industry].
+
+#### Problem queries
+
+Examples:
+
+- how to solve [customer problem];
+- how to improve [outcome];
+- what is the best way to [task].
+
+#### Comparison queries
+
+Examples:
+
+- [brand] vs competitors;
+- [solution] vs [alternative];
+- [topic] best practices.
+
+### 10.2 Monitoring Logic
+
+For each query, record:
+
+- whether the brand appears;
+- whether the brand is named correctly;
+- what sources are cited;
+- whether competitors are present instead;
+- whether the framing is neutral, positive, or negative;
+- whether the result changes over time.
 
 ---
 
-## 14. Integration with Framework
+## 11. Relationship with SEO
 
-AI Visibility Audit is the operational layer of AI Visibility Framework v1.0.
+AI Visibility Framework does not replace traditional SEO.
 
-Framework answers:
+SEO remains responsible for:
 
-- what AI Visibility is;
-- what components it includes;
-- how it should be interpreted.
+- crawling;
+- indexing;
+- rankings;
+- organic traffic.
 
-Audit answers:
+AI Visibility focuses on:
 
-- how to measure the current state;
-- what is missing;
-- what should be improved next.
+- entity understanding;
+- AI representation;
+- citation presence;
+- generative search visibility.
 
-Together, Framework + Audit create a complete practical methodology.
+Both disciplines complement each other.
 
 ---
 
-## 15. Limitations
+## 12. Limitations
 
-AI Visibility Audit has limitations.
+AI Visibility Framework has limitations.
 
 It:
 
 - does not reveal internal AI ranking systems;
 - does not guarantee brand inclusion in AI responses;
-- does not replace SEO audits;
+- is not a replacement for SEO;
 - depends on query selection, language, and market context;
 - may change as AI systems evolve.
 
+Version 1.0 is the first iteration of the model and will be improved through practical application and new research.
+
 ---
 
-## 16. Future Research
+## 13. Future Research
 
-Future versions of the audit may include:
+Future versions of the framework may include:
 
 - industry benchmarks;
 - more comparative cases;
 - automated monitoring;
 - expanded query frameworks;
-- additional AI Search platforms.
+- additional AI search platforms;
+- causal testing of improvement actions.
+
+---
+
+## 14. Project Roadmap
+
+### Phase 1 — AI Visibility Audit v0.1
+
+Creation of an internal assessment model.
+
+### Phase 2 — Testing
+
+Testing on projects:
+
+- e-commerce;
+- B2B;
+- expert brands.
+
+### Phase 3 — AI Visibility Framework v1.0
+
+Publication of the methodology.
+
+### Phase 4 — Public Research Project
+
+Creation of:
+
+- GitHub;
+- White Paper;
+- Research Page.
+
+### Phase 5 — Distribution
+
+Publications:
+
+- VC.ru;
+- HackerNoon;
+- LinkedIn;
+- Telegram.
+
+---
+
+## 15. Commercial Application
+
+AI Visibility Framework can be used as the basis for a service.
+
+### AI Visibility Audit
+
+**Formats:**
+
+- **Basic**  
+  AI Visibility Score + analysis of the current state.
+
+- **Advanced**  
+  Score + improvement strategy.
+
+- **Consulting**  
+  Full implementation:
+  - Entity;
+  - Content;
+  - Structured Data;
+  - Digital PR;
+  - Monitoring.
 
 ---
 
 ## Author Statement
 
-AI Visibility Audit v1.0 was created as a practical research instrument for evaluating how brands are represented in generative AI search systems.
+AI Visibility Framework was created as a practical research initiative to explore how brands can improve their representation in a new AI-driven search environment.
 
-This version is the first iteration of the audit methodology and will evolve through:
+Version 1.0 is the first iteration of the methodology and will evolve through:
 
-- practical use;
-- monitored outputs;
-- comparative cases;
-- future research.
+- practical applications;
+- observations;
+- cases;
+- research.
 
 ---
 
 ## Conclusion
 
-AI Visibility Audit v1.0 turns AI Visibility Framework from a conceptual model into a working method.
+AI Visibility Framework v1.0 is a practical methodology for working with a new search environment.
 
-It helps identify how a brand is understood by AI systems, what external signals support that understanding, and what actions can improve presence in generative search.
+It does not replace SEO.  
+It expands it:
 
-AI Visibility is not only about ranking pages.  
-It is about building a clear, trusted, and machine-readable brand presence in AI-driven search environments.
+- from page optimization
+- to managing the digital representation of the brand.
+
+The central idea is simple:
+
+In the era of generative search, winning is no longer only about ranking pages. It is about being an entity that AI systems can understand, validate, and recommend.
+
+AI Visibility Framework v1.0  
+Author: Vladimir Sinitsyn  
+Organization: Systemnoe SEO
